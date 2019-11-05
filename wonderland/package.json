@@ -4,13 +4,13 @@
   "description": "Fantasy-land compatible implementation of Monads in JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint && jest --watch",
+    "test": "eslint && jest",
     "coverage": "jest --coverage"
   },
   "husky": {
     "hooks": {
       "pre-commit": "eslint",
-      "pre-push": "eslint && npm test"
+      "pre-push": "npm test"
     }
   },
   "keywords": [
